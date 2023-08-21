@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.body-dark {
+  background-color: #202C36;
+}
+.body-dark header {
+  background-color: #2B3844;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-4 {
+  width: 264px;
+}
+
+.container {
+  padding: 0px 32px 0px 32px;
+  max-width: 1440px;
+}
+
+body {
+  background-color: white;
+  font-family: "Nunito Sans", sans-serif;
+}
+body header {
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+  position: fixed;
+  width: 100%;
+}
+body header .container nav {
+  display: flex;
+  padding: 19px 0px 19px 0px;
+  justify-content: space-between;
+}
+body header .container nav .dark-mode {
+  margin-top: 3px;
+  display: flex;
+}
+body header .container nav .dark-mode i.fa {
+  padding-top: 3px;
+  padding-right: 10px;
+}
+body header .container nav .dark-mode p {
+  font-size: 16px;
+  font-weight: 600;
+}
+body main {
+  padding-top: 128px;
+}
+body main .container section input {
+  border: none;
+  padding: 18px 200px 18px 50px;
+  color: #848484;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+body main .container section .row {
+  margin-top: 48px;
+}
+body main .container section .row .col-4 {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+}
+body main .container section .row .col-4 .body {
+  padding: 24px;
+}
+body main .container section .row .col-4 .body h4 {
+  padding-bottom: 16px;
+  color: #111517;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+body main .container section .row .col-4 .body .about-c p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #111517;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+body main .container section .row .col-4 .body .about-c p span {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+  color: #111517;
+}
